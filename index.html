@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of GRACY RAGHAV, Frontend Developer and Student." />
+  <title>Portfolio | GRACY RAGHAV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-gradient" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">GR<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#linkedin">LinkedIn</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </span>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <p class="hero-greeting reveal">Hello, I'm</p>
+        <h1 class="hero-title reveal">
+          <span class="hero-name">GRACY RAGHAV</span>
+        </h1>
+        <p class="hero-role reveal">
+          <span class="typed-text" id="typedText"></span>
+          <span class="cursor" aria-hidden="true">|</span>
+        </p>
+        <p class="hero-desc reveal">
+          Frontend Developer and Student focused on beautiful, user-friendly digital experiences.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">About</span>
+          <h2 class="section-title">Who I am</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-profile reveal">
+            <div class="about-image-frame">
+              <div class="about-avatar" role="img" aria-label="Profile photo placeholder">
+                <span>GR</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-main reveal">
+            <article class="about-card about-card-main">
+              <p class="about-lead">
+                I am an ambitious learner passionate about web design, data, and writing.
+              </p>
+              <p>
+                I love turning ideas into beautiful digital experiences and am constantly exploring the intersection of creativity and technology.
+              </p>
+              <p>
+                I am currently building my skills in frontend development while nurturing my love for data and storytelling through writing.
+              </p>
+            </article>
+            <div class="about-focus-grid">
+              <article class="about-card about-card-focus">
+                <div class="about-focus-icon" aria-hidden="true">&lt;/&gt;</div>
+                <h3>Frontend Development</h3>
+                <p>Building responsive, accessible interfaces with HTML, CSS, and JavaScript.</p>
+              </article>
+              <article class="about-card about-card-focus">
+                <div class="about-focus-icon" aria-hidden="true">◎</div>
+                <h3>Data</h3>
+                <p>Exploring structured thinking, SQL, and data-driven problem solving.</p>
+              </article>
+              <article class="about-card about-card-focus">
+                <div class="about-focus-icon" aria-hidden="true">✎</div>
+                <h3>Writing</h3>
+                <p>Crafting clear narratives and communicating ideas with purpose.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Skills</span>
+          <h2 class="section-title">What I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Web Foundations</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <div class="skill-bar"><span style="--progress: 90%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">{ }</div>
+            <h3>Programming</h3>
+            <p>Python, C, OOPS with Java</p>
+            <div class="skill-bar"><span style="--progress: 75%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">◎</div>
+            <h3>Data & Database</h3>
+            <p>SQL, data basics, structured problem solving</p>
+            <div class="skill-bar"><span style="--progress: 85%"></span></div>
+          </article>
+        </div>
+        <div class="skills-tags reveal">
+          <span>JavaScript</span>
+          <span>CSS</span>
+          <span>Python</span>
+          <span>C</span>
+          <span>OOPS with Java</span>
+          <span>SQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Projects</span>
+          <h2 class="section-title">Selected work</h2>
+          <p class="section-subtitle">Hands-on projects that showcase my frontend fundamentals and design skills.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-image-1">
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-body">
+              <h3>To-Do App</h3>
+              <p>A task management application that allows users to add, complete and remove tasks. Built to strengthen DOM manipulation and JavaScript fundamentals.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href=https://github.com/gracyraghav04/todo_app target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub</a>
+              
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-image-2"><span class="project-number">Coming Soon</span></div>
+            <div class="project-body">
+              <h3>New Pojects Coming Soon</h3>
+                <p>Stay Tuned....<p>
+              
+              
+            </div>
+          </article>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- LinkedIn & Social -->
+    <section class="section linkedin" id="linkedin">
+      <div class="container">
+        <div class="linkedin-wrapper reveal">
+          <div class="linkedin-content">
+            <span class="section-label">Connect</span>
+            <h2 class="section-title">Let's connect on LinkedIn</h2>
+            <p>
+              I'm open to networking, internships, and collaboration opportunities. Follow my journey and reach out on LinkedIn.
+            </p>
+            <a href="https://www.linkedin.com/in/gracyraghav04/" target="_blank" rel="noopener noreferrer" class="btn btn-primary linkedin-btn" title="GRACY RAGHAV on LinkedIn">
+              View My LinkedIn Profile
+            </a>
+          </div>
+          <div class="social-links">
+            <h3 class="social-title">Find me online</h3>
+            <ul class="social-list">
+              <li>
+                <a href="https://www.linkedin.com/in/gracyraghav04/" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span class="social-icon" aria-hidden="true">in</span>
+                  <span>
+                    <strong>LinkedIn</strong>
+                    <small>Professional network</small>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/gracyraghav04" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span class="social-icon" aria-hidden="true">{ }</span>
+                  <span>
+                    <strong>GitHub</strong>
+                    <small>Code & projects</small>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:gracyraghav.04@gmail.com" class="social-link">
+                  <span class="social-icon" aria-hidden="true">@</span>
+                  <span>
+                    <strong>Email</strong>
+                    <small>gracyraghav.04@gmail.com</small>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-wrapper reveal">
+          <div class="section-header">
+            <span class="section-label">Contact</span>
+            <h2 class="section-title">Let's build something</h2>
+            <p class="contact-intro">
+              Have a project in mind or want to say hello? I'd love to hear from you.
+            </p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate autocomplete="off">
+            <div class="form-row">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="contact-name" placeholder="Your name" required autocomplete="off" />
+            </div>
+            <div class="form-row">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="contact-email" placeholder="your.email@gmail.com" required autocomplete="off" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> GRACY RAGHAV. Crafted with care.</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/gracyraghav04/" target="_blank" rel="noopener noreferrer" aria-label="GRACY RAGHAV on LinkedIn">LinkedIn</a>
+        <a href=https://github.com/gracyraghav04 target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="mailto:gracyraghav.04@gmail.com" aria-label="Email">Email</a>
+      </div>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
