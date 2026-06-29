@@ -31,7 +31,7 @@ portfolio/
 ├── index.html
 ├── style.css
 ├── script.js
-├── images/
+├── gracy2.jpeg
 └── README.md
 ```
 
